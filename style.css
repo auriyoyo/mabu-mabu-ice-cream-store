@@ -1,0 +1,95 @@
+:root {
+  --strawbery: #fccee1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100vh;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  color: var(--text-color);
+}
+
+p {
+  background-color: var(--strawbery);
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0 auto;
+  display: block;
+}
+
+li {
+  color: lightpink;
+}
+
+main {
+  padding: 0px 50px;
+}
+
+.button {
+    background-color: var(--strawbery);
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom: 2px solid #e78db2;
+}
+
+.jk {
+  font-weight: normal;
+}
+
+.navlist {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: medium;
+}
+
+/*
+.hi {
+  display: flex;
+}
+
+div {
+  border: 2px solid rgb(0, 0, 0);
+  padding: 8px;
+}
+
+.left {
+  flex: 5;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.row {
+  flex: 0 1 300px;
+}
+*/
